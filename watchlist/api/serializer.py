@@ -26,6 +26,7 @@ class MovieSerializer(serializers.ModelSerializer):
     
     '''
     
+    
     def get_len_name(self, object):
         length = len(object.name)
         return length

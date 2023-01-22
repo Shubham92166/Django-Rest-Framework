@@ -7,8 +7,6 @@ from rest_framework.decorators import api_view
 from rest_framework import status
 from rest_framework.decorators import APIView
 
-# Create your views here.
-
 class MovieListAV(APIView):
     def get(self, request):
         try:
